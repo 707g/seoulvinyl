@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/seoulvinyl/static/css/main.4c2f6845.css",
-    "main.js": "/seoulvinyl/static/js/main.ab6b725b.js",
+    "main.css": "/seoulvinyl/static/css/main.ffcd1116.css",
+    "main.js": "/seoulvinyl/static/js/main.1757dfd9.js",
     "index.html": "/seoulvinyl/index.html",
-    "main.4c2f6845.css.map": "/seoulvinyl/static/css/main.4c2f6845.css.map",
-    "main.ab6b725b.js.map": "/seoulvinyl/static/js/main.ab6b725b.js.map"
+    "main.ffcd1116.css.map": "/seoulvinyl/static/css/main.ffcd1116.css.map",
+    "main.1757dfd9.js.map": "/seoulvinyl/static/js/main.1757dfd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c2f6845.css",
-    "static/js/main.ab6b725b.js"
+    "static/css/main.ffcd1116.css",
+    "static/js/main.1757dfd9.js"
   ]
 }
