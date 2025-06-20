@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import React from 'react';
+import HiphopSlider from './MainSlide/HiphopSlider';
 
 const MainHeader = styled.div`
   width: 100%;
@@ -38,6 +39,28 @@ const OverText = styled.div`
   }
 `;
 
+const Contents = styled.div`
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 60px;
+  }
+
+  .line {
+    width: 80px;
+    height: 4px;
+    background-color: #20CBFD;
+    margin: 10px auto;
+  }
+`;
+
 function Main() {
   return (
     <>
@@ -48,6 +71,12 @@ function Main() {
           <p>Turn up your life</p>
         </OverText>
       </MainHeader>
+      <div className="footer_line"/>
+      <Contents>
+        <h1>HIPHOP/SOUL/R&B</h1>
+        <div className='line'/>
+        <HiphopSlider />
+      </Contents>
     </>
   );
 }

@@ -92,14 +92,14 @@ nav ul li a:hover {
 }
 
 .footer_line {
-  width: 1450px;
+  width: 1350px;
   height: 1px;
   background-color: #20CBFD;
   margin: 80px auto 20px;
 }
 
 .footer_in {
-  width: 1450px;
+  width: 1350px;
   display: flex;
   justify-content: center;
   margin: 80px auto 50px;
