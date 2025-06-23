@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useProState } from '../stateContext';
+import { Link } from 'react-router-dom';
 
 const ItemsWrapper = styled.div`
   display: flex;
@@ -41,9 +42,10 @@ const ItemBlock = styled.div`
   }
 `;
 
+
 function Hiphop() {
   const state = useProState();
-  const hiphopList = state[0];
+  const hiphopList = state[0]; // [0]에서 HIPHOP 리스트 가져옴
 
   return (
     <ItemsWrapper>
@@ -52,6 +54,7 @@ function Hiphop() {
           <img src={process.env.PUBLIC_URL + item.src} alt={item.ttl} />
           <h4>{item.ttl}</h4>
           <p>{item.price}</p>
+          <Link to={`/component/SubHiphop/${item.id}`} className='no-underline'>자세히</Link>
         </ItemBlock>
       ))}
     </ItemsWrapper>

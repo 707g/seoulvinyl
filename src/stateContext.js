@@ -370,6 +370,129 @@ const list = [
       price: "47,500원",
     },
   ],
+  // [3] JAZZ
+  [
+    {
+      id: 1,
+      src: "/images/jazz/jazz01.png",
+      ttl: "Chet Baker 쳇 베이커 lp - Sings: It Could Happen To You",
+      price: "50,000원",
+    },
+    {
+      id: 2,
+      src: "/images/jazz/jazz02.png",
+      ttl: "Ryo Fukui 후쿠이 료 lp – Mellow Dream (Transparent Colored)",
+      price: "40,000원",
+    },
+    {
+      id: 3,
+      src: "/images/jazz/jazz03.png",
+      ttl: "Miles Davis 마일즈 데이비스 lp - Kind Of Blue [Blue colored]",
+      price: "52,500원",
+    },
+    {
+      id: 4,
+      src: "/images/jazz/jazz04.png",
+      ttl: "Casiopea 카시오페아 - Casiopea (clear orange colored LP)",
+      price: "47,500원",
+    },
+    {
+      id: 5,
+      src: "/images/jazz/jazz05.png",
+      ttl: "Casiopea 카시오페아 - Mint Jams (clear green colored LP)",
+      price: "47,500원",
+    },
+    {
+      id: 6,
+      src: "/images/jazz/jazz06.png",
+      ttl: "KEITH JARRETT 키스 자렛 - THE KOLN CONCERT [180G LP]",
+      price: "47,500원",
+    },
+    {
+      id: 7,
+      src: "/images/jazz/jazz07.png",
+      ttl: "[예약판매] Takanaka Masayoshi (타카나카 마사요시)- BRASILIAN SKIES [colored LP]",
+      price: "47,500원",
+    },
+    {
+      id: 8,
+      src: "/images/jazz/jazz08.png",
+      ttl: "[예약판매] Takanaka Masayoshi (타카나카 마사요시)- JOLLY JIVE [colored LP]",
+      price: "47,500원",
+    },
+    {
+      id: 9,
+      src: "/images/jazz/jazz09.png",
+      ttl: "[예약판매] Takanaka Masayoshi (타카나카 마사요시) -All Of Me [colored 2LP]",
+      price: "64,000원",
+    },
+    {
+      id: 10,
+      src: "/images/jazz/jazz10.png",
+      ttl: "Roy Hargrove 로이 하그로브 - Earfood [2LP]",
+      price: "87,500원",
+    },
+    {
+      id: 11,
+      src: "/images/jazz/jazz11.png",
+      ttl: "이판근과 코리아째즈퀸텟 '78 - Plays Arirang & Other Assorted Classics [Blue colored LP]",
+      price: "38,500원",
+    },
+    {
+      id: 12,
+      src: "/images/jazz/jazz12.png",
+      ttl: "Miles Davis 마일즈 데이비스- You're Under Arrest (LP)",
+      price: "41,500원",
+    },
+    {
+      id: 13,
+      src: "/images/jazz/jazz13.png",
+      ttl: "Fourplay 포플레이 - Heartfelt (Gold Colored 2LP)",
+      price: "47,500원",
+    },
+    {
+      id: 14,
+      src: "/images/jazz/jazz14.png",
+      ttl: "Blue Mitchell 블루 미첼 - Blue's Moods (Original Jazz Classics Series)(180g LP)",
+      price: "61,500원",
+    },
+    {
+      id: 15,
+      src: "/images/jazz/jazz15.png",
+      ttl: "Cory Wong 코리웡- Starship Syncopation [LP]",
+      price: "46,000원",
+    },
+    {
+      id: 16,
+      src: "/images/jazz/jazz16.png",
+      ttl: "Fourplay 포플레이 - Fourplay [Dark blue colored 2LP]",
+      price: "67,500원",
+    },
+    {
+      id: 17,
+      src: "/images/jazz/jazz17.png",
+      ttl: "Fourplay 포플레이 - Between The Sheets [Transparent purple colored 2LP]",
+      price: "77,500원",
+    },
+    {
+      id: 18,
+      src: "/images/jazz/jazz18.png",
+      ttl: "Sergio Mendes 세르지오 멘데스 - The Swinger From Rio (Green /Yellow coloredLP)",
+      price: "37,000원",
+    },
+    {
+      id: 19,
+      src: "/images/jazz/jazz19.png",
+      ttl: "Kamasi Washington(카마시 워싱턴) - The Epic [3LP]",
+      price: "59,000원",
+    },
+    {
+      id: 20,
+      src: "/images/jazz/jazz20.png",
+      ttl: "Kamasi Washington (카마시 워싱턴) - Harmony Of Difference (EP) [LP]",
+      price: "30,000원",
+    },
+  ],
 ]
 
 function proReducer(list, action) {}

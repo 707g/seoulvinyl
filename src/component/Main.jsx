@@ -3,6 +3,7 @@ import React from 'react';
 import HiphopSlider from './MainSlide/HiphopSlider';
 import RockSlider from './MainSlide/RockSlider';
 import KoreanSlider from './MainSlide/KoreanSlider';
+import JazzSlider from './MainSlide/JazzSlider';
 
 const MainHeader = styled.div`
   width: 100%;
@@ -84,6 +85,10 @@ function Main() {
         <h1>KOREAN</h1>
         <div className='line'/>
         <KoreanSlider />
+        <h1>JAZZ</h1>
+        <div className='line'/>
+        <JazzSlider />
+        <div className="footer_line"/>
       </Contents>
     </>
   );
