@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import React from 'react';
 import HiphopSlider from './MainSlide/HiphopSlider';
+import RockSlider from './MainSlide/RockSlider';
+import KoreanSlider from './MainSlide/KoreanSlider';
 
 const MainHeader = styled.div`
   width: 100%;
@@ -50,7 +52,7 @@ const Contents = styled.div`
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    margin-top: 60px;
+    margin-top: 100px;
   }
 
   .line {
@@ -76,6 +78,12 @@ function Main() {
         <h1>HIPHOP/SOUL/R&B</h1>
         <div className='line'/>
         <HiphopSlider />
+        <h1>ROCK/POP/ELECTRONICA</h1>
+        <div className='line'/>
+        <RockSlider />
+        <h1>KOREAN</h1>
+        <div className='line'/>
+        <KoreanSlider />
       </Contents>
     </>
   );
