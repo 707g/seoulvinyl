@@ -16,7 +16,6 @@ const ItemsWrapper = styled.div`
 const ItemBlock = styled.div`
   width: calc(25% - 20px);
   margin: 30px 10px 0 10px;
-  border: 1px solid #ccc;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
