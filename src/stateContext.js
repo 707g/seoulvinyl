@@ -493,6 +493,41 @@ const list = [
       price: "30,000원",
     },
   ],
+  // [4] mapSlide
+  [
+    {
+      id: 1,
+      src: "/images/main/mapSlide01.png"
+    },
+    {
+      id: 2,
+      src: "/images/main/mapSlide02.png"
+    },
+    {
+      id: 3,
+      src: "/images/main/mapSlide03.png"
+    },
+    {
+      id: 4,
+      src: "/images/main/mapSlide04.png"
+    },
+    {
+      id: 5,
+      src: "/images/main/mapSlide05.png"
+    },
+    {
+      id: 6,
+      src: "/images/main/mapSlide06.png"
+    },
+    {
+      id: 7,
+      src: "/images/main/mapSlide07.png"
+    },
+    {
+      id: 8,
+      src: "/images/main/mapSlide08.png"
+    },
+  ],
 ]
 
 function proReducer(list, action) {}
