@@ -47,11 +47,13 @@ const SliderWrapper = styled.div`
 `;
 
 const SlideItem = styled.div`
+  width: 270px;
   text-align: center;
   padding: 10px;
-
+  margin: 0 auto;
+  
   img {
-    width: 270px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
@@ -62,6 +64,7 @@ const SlideItem = styled.div`
       box-shadow: 0 8px 15px rgba(0,0,0,0.2);
     }
   }
+
 
   p {
     margin-top: 10px;
