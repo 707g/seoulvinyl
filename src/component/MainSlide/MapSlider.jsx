@@ -53,18 +53,18 @@ const SlideItem = styled.div`
   margin: 0 auto;
   
   img {
-    width: 100%;
-    height: 200px;
+    width: 100% !important;
+    height: 200px !important;
     object-fit: cover;
     border-radius: 8px;
     transition: transform 0.3s ease;
+
     &:hover {
       transform: scale(1.02);
       cursor: pointer;
       box-shadow: 0 8px 15px rgba(0,0,0,0.2);
     }
   }
-
 
   p {
     margin-top: 10px;
@@ -103,11 +103,13 @@ export default function MapSlider() {
         }}
       >
         {albumsM.map((album) => (
-          <SwiperSlide key={album.id}>
-            <SlideItem>
+        <SwiperSlide key={album.id} style={{ display: 'flex', justifyContent: 'center' }}>
+          <SlideItem>
+            <a href="https://www.instagram.com/seoulvinyl/" target="_blank" rel="noopener noreferrer">
               <img src={process.env.PUBLIC_URL + album.src} alt={album.ttl} />
-            </SlideItem>
-          </SwiperSlide>
+            </a>
+          </SlideItem>
+        </SwiperSlide>
         ))}
       </Swiper>
     </SliderWrapper>

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const ItemsWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   box-sizing: border-box;
   margin-bottom: 100px;
   max-width: 1350px;
@@ -26,7 +26,7 @@ const ItemBlock = styled.div`
 
   img {
     width: 70%;
-    margin: 15px 0;
+    margin: 15px 0 auto;
     cursor: pointer;
   }
   h4 {
@@ -45,16 +45,18 @@ const ItemBlock = styled.div`
 
 function Hiphop() {
   const state = useProState();
-  const hiphopList = state[0]; // [0]에서 HIPHOP 리스트 가져옴
+  const hiphopList = state[0];
 
   return (
     <ItemsWrapper>
       {hiphopList.map((item) => (
         <ItemBlock key={item.id}>
-          <img src={process.env.PUBLIC_URL + item.src} alt={item.ttl} />
+          <Link to={`/component/SubHiphop/${item.id}`} className='no-underline'>
+            <img src={process.env.PUBLIC_URL + item.src} alt={item.ttl} />
+          </Link>
           <h4>{item.ttl}</h4>
           <p>{item.price}</p>
-          <Link to={`/component/SubHiphop/${item.id}`} className='no-underline'>자세히</Link>
+          
         </ItemBlock>
       ))}
     </ItemsWrapper>
