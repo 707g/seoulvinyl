@@ -15,6 +15,8 @@ import Seoulvinyl from "./component/Seoulvinyl";
 import Discount from "./component/Discount";
 import Etc from "./component/Etc";
 import SubHiphop from "./component/SubHiphop";
+import SubRock from "./component/SubRock";
+import SubKorean from "./component/SubKorean";
 
 function App() {
   return (
@@ -59,9 +61,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/overview" element={<Overview />} />
+            <Route path="/component/SubKorean/:id" element={<SubKorean />} />
             <Route path="/korean" element={<Korean />} />
             <Route path="/component/SubHiphop/:id" element={<SubHiphop />} />
             <Route path="/hiphop" element={<Hiphop />} />
+            <Route path="/component/SubRock/:id" element={<SubRock />} />
             <Route path="/rock" element={<Rock />} />
             <Route path="/jazz" element={<Jazz />} />
             <Route path="/ost" element={<Ost />} />

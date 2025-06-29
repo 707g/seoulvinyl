@@ -11,7 +11,7 @@ const ItemsWrapper = styled.div`
   align-items: center;
 `;
 
-const HiphopHeader = styled.div`
+const RockHeader = styled.div`
   width: 100%;
   height: 350px;
   display: flex;
@@ -162,11 +162,11 @@ const ProductInfo = styled.div`
   }
 `;
 
-function SubHiphop() {
+function SubRock() {
   const { id } = useParams();
-  const hiphopList = useProState()[0];
+  const rockList = useProState()[1];
 
-  const item = hiphopList.find((item) => item.id === parseInt(id));
+  const item = rockList.find((item) => item.id === parseInt(id));
   const [quantity, setQuantity] = useState(1);
 
   const price = parseInt(item?.price.replace(',', '')) || 0;
@@ -188,15 +188,15 @@ function SubHiphop() {
 
   return (
     <ItemsWrapper>
-      <HiphopHeader>
-        <img src={process.env.PUBLIC_URL + '/images/hiphop/mainImg.png'} alt="mainImg" />
+      <RockHeader>
+        <img src={process.env.PUBLIC_URL + '/images/rock/mainImg.png'} alt="mainImg" />
         <OverText>
-          <h1>HIPHOP/SOUL/R&B</h1>
+          <h1>ROCK/POP/ELECTRONICA</h1>
         </OverText>
-      </HiphopHeader>
+      </RockHeader>
+
       <ProductWrapper>
         <ProductImg src={process.env.PUBLIC_URL + item.src} alt={item.ttl} />
-
         <ProductInfo>
           <h2>[모서리할인] {item.ttl}</h2>
           <div className="price">{item.price}</div>
@@ -233,4 +233,4 @@ function SubHiphop() {
   );
 }
 
-export default SubHiphop;
+export default SubRock;
